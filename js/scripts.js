@@ -18,7 +18,8 @@ $(".btn").click(function(){
 if (animal === 1){
   $(".snakes,.insects").hide();
   $(".turtles").show();
-}else if (animal === 2) {
+}else if (animal === 2) { 
+  // if use == doesn't have to match number to number .. it can match string to number//
   $(".turtles, .insects").hide();
   $(".snakes").show();
 }else if (animal === 3) {
